@@ -1,0 +1,28 @@
+.limit-1 {
+    width: 350px;
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    direction: ltr;
+}
+
+.color-red {
+	color: red !important;
+}
+
+.cor-principal{
+	background-color: rgb(0,88,124) !important;
+}
+
+.cor-secundaria{
+	background-color: rgba(0,88,124,0.5) !important;
+}
+
+.logo-gs{
+	width: 60px ;
+}
+
+.logo-tambora{
+    width: 80%;
+}

@@ -1,0 +1,196 @@
+body{
+	font-family: 'Josefin Sans',Helvetica,Arial,Lucida,sans-serif;
+}
+.input{
+	padding-left: 16px;
+	padding-right: 16px;
+	padding-top: 24px;
+	padding-bottom: 24px;
+	font-size: 18px;
+	border-radius: 0px;
+	border: 1px solid #bbb;
+	color: #999!important;
+	font-family: "Open Sans",Arial,sans-serif !important;
+	background-color: #eee;
+	font-weight: bold;
+}
+.input::-webkit-input-placeholder {
+	font-weight: bold;
+    color: rgba(104,109,131,0.6)!important;
+	font-family: "Open Sans",Arial,sans-serif !important;
+}
+.input:-moz-placeholder { /* Firefox 18- */
+	font-weight: bold;
+    color: rgba(104,109,131,0.6)!important;
+	font-family: "Open Sans",Arial,sans-serif !important;  
+}
+       
+.input::-moz-placeholder {  /* Firefox 19+ */
+	font-weight: bold;
+    color: rgba(104,109,131,0.6)!important;
+	font-family: "Open Sans",Arial,sans-serif !important;  
+}
+       
+.input:-ms-input-placeholder {  
+	font-weight: bold;
+    color: rgba(104,109,131,0.6)!important;
+	font-family: "Open Sans",Arial,sans-serif !important;  
+}
+.btn-resgatar{
+	background-color: rgba(255,255,255,0.1);
+}
+.icon{
+	font-size: 30px;
+}
+
+.text-satisfacao{
+	color: white !important;
+}
+
+.blue{
+	background-color: #3050d1;
+	border-radius: 5px;
+	width: 75%;
+	color: white;
+	padding-bottom: 80px; 
+}
+
+.estrelas{
+	font-size: 20px;
+}
+.comentario{
+	border-left: #3050d1 solid 5px;
+	padding-left: 20px;
+}
+@media screen and (min-width: 768px){
+	.logo{
+		max-width: 30vw;
+		max-height: 25vw;
+	}
+	.title{
+		font-size: 3.8vw;
+	}
+	.first-triangle{
+		margin-top: -12vw;
+	}
+	.p-topicos{
+		font-size: 18px;
+	}
+	.valores-title{
+		font-size: 50px;
+	}
+	.title-satisfacao{
+		font-size: 50px;
+	}
+	.text-satisfacao{
+		margin-bottom: 30px;
+		font-size: 22px;
+	}
+
+	.title-satisfacao{
+		padding-top: 130px;
+	}
+	.row-satisfacao{
+		margin-top: 64px;
+	}
+	.btn-satisfacao{
+		margin-top: 35px;
+		margin-bottom: 230px;
+	}
+	.title-blue{
+		padding-top: 100px;
+		padding-bottom: 40px;
+		font-size: 55px;
+	}
+	.icon-blue{
+		font-size: 50px;
+	}
+	.section-clientes{
+		margin-top: 150px;
+		margin-bottom: 40px;
+	}
+	.title-clientes{
+		font-size: 46px;
+	}
+	.div-transporte{
+		padding-top: 60px;
+	}
+	.title-transporte{
+		font-size: 55px;
+	}
+	.title-contato{
+		font-size: 60px;
+	}
+	.title-contato{
+		padding-top: 60px;
+	}
+}
+
+@media screen and (max-width: 767px){
+	.logo{
+		max-width: 50vw;
+		max-height: 50vw;
+	}
+	.title{
+		font-size: 6vw;
+	}
+	.first-triangle{
+		margin-top: -9vw;
+	}
+	.div-car img{
+		margin-top: 24px !important;
+		margin-bottom: -4vw;
+	}
+	.p-topicos{
+		font-size: 16px;
+	}
+
+	.title-satisfacao{
+		padding-top: 60px;
+	}
+	.row-satisfacao{
+		margin-top: 25px;
+	}
+	.text-satisfacao{
+		margin-bottom: 20px;
+		font-size: 18px;
+	}
+	.icon{
+		margin-top: -7px;
+		padding-left: 5px;
+	}
+	.btn-satisfacao{
+		margin-top: 35px;
+		margin-bottom: 230px;
+	}
+	.blue{
+		width: 98%;
+	}
+	.title-blue{
+		font-size: 34px;
+		padding-top: 60px;
+	}
+	.icon-blue{
+		margin-top: 30px;
+		font-size: 50px;
+	}
+	.section-clientes{
+		margin-top: 80px;
+		margin-bottom: 40px;
+	}
+	.title-clientes{
+		font-size: 25px;
+	}
+	.div-transporte{
+		padding-top: 40px;
+	}
+	.title-transporte{
+		font-size: 25px;
+	}
+	.title-contato{
+		font-size: 30px;
+	}
+	.title-contato{
+		padding-top: 40px;
+	}
+}
