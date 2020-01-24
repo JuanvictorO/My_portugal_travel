@@ -75,9 +75,9 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'olimpo.hostsrv.org',
-	'username' => 'gersonfreire_myportugaltravel',
-	'password' => 'J0JsNc7Umvj5',
+	'hostname' => 'localhost',
+	'username' => 'root',
+	'password' => '',
 	'database' => 'gersonfreire_myportugaltravel',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
