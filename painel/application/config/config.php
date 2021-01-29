@@ -30,7 +30,7 @@ date_default_timezone_set('America/Sao_Paulo');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'http://localhost/Portugal/painel/';
+$config['base_url'] = 'http://localhost:8080/painel';
 
 /*
 |--------------------------------------------------------------------------

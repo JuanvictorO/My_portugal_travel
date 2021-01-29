@@ -1,13 +1,13 @@
-create schema gersonfreire_myportugaltravel default charset utf8;
+create schema mpt default charset utf8;
 
-use gersonfreire_myportugaltravel;
+use mpt;
 
 create table emails(
 	id int not null primary key auto_increment,
     nome varchar(45) not null,
     email varchar(60) not null,
     num varchar(16),
-	origem varchar(60),
+		origem varchar(60),
     destino varchar(60),
     data_passeio date not null,
     qtdd int,

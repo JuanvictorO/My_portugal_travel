@@ -2,13 +2,6 @@
 if (!defined('BASEPATH'))
     exit('No direct script access allowed');
 
-/**
- * 
- * @author Matheus de Castro <matheuscastroweb@gmail.com>
- * @copyright tamborafilmes.com.br Tambora Filmes
- * @version 1.0 
- */
-
 class Login extends CI_Controller
 {
 
@@ -161,19 +154,6 @@ class Login extends CI_Controller
         }
         
     }
-   /* public function criar_user(){
-        $username = 'Juan Victor';
-        $password = '26022001MPT';
-        $email = 'juanvictoroliveira2009@gmail.com';
-        $additional_data = array(
-            'first_name' => 'Juan Victor',
-            'last_name' => 'Oliveira Silva'
-        );
-        $group = array('1');
-        if($this->ion_auth->register($username, $password, $email, $additional_data, $group)){
-            echo 'Usuário logado';
-        }
-    }*/
 
 }
   
